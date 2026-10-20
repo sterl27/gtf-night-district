@@ -1,0 +1,22 @@
+{
+  "district": "North Jersey night",
+  "block": 32,
+  "road": 12,
+  "span": 3,
+  "start": { "x": 0, "z": 18, "name": "Big Sal" },
+  "places": [
+    { "id": "sat", "name": "Satriale's", "x": -32, "z": -24, "line": "Gabagool is in the back. Do not touch the case." },
+    { "id": "bing", "name": "The Bing", "x": 32, "z": 26, "line": "Tony is not here. Leave the envelope and go." },
+    { "id": "genco", "name": "Genco", "x": 64, "z": -32, "line": "The olive oil is the business. Sit, then leave." }
+  ],
+  "envelopes": [
+    { "x": 16, "z": -12 },
+    { "x": -22, "z": 22 },
+    { "x": 44, "z": -8 },
+    { "x": 60, "z": -28 }
+  ],
+  "payouts": { "envelope": 2500, "door": 10000, "sitdown": 8000 },
+  "heat": { "chase": 32, "panic": 70 },
+  "cars": ["formal-sedan", "lane-sedan", "fed-sedan"],
+  "controls": { "drive": "WASD", "enter": "E", "steal": "F", "save": "K", "radio": "Q", "horn": "H" }
+}
